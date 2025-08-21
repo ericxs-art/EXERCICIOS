@@ -71,3 +71,25 @@ return resultado
 }
 var valorSomado = soma(7, 6);
 console.log("A soma deu: ", valorSomado);
+
+// function realizarOperacao() {
+//     var operacao = prompt("Escolha uma operação: \n1. Depósito \n2. Saque \n3. Extrato \n4. Sair");
+    
+//     if (operacao === "1") {
+//         var valorDeposito = parseFloat(prompt("Digite o valor do depósito:"));
+//         console.log("Depósito realizado: R$" + valorDeposito);
+//     } else if (operacao === "2") {
+//         var valorSaque = parseFloat(prompt("Digite o valor do saque:"));
+//         console.log("Saque realizado: R$" + valorSaque);
+//     } else if (operacao === "3") {
+//         console.log("Exibindo extrato...");
+//     } else if (operacao === "4") {
+//         console.log("Saindo...");
+//         return;
+//     } else {
+//         console.log("Operação inválida.");
+//     }
+    
+//     realizarOperacao(); // Chama a função novamente para continuar o loop
+
+// }
